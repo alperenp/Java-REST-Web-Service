@@ -10,7 +10,7 @@
 3.  Follow instructions in [guide](https://crunchify.com/create-very-simple-jersey-rest-service-and-send-json-data-from-java-client/)
   *  [Tutorial for Web Application and explanation](https://www.journaldev.com/1854/java-web-application-tutorial-for-beginners)
   *  One may need to change pom file because it uses old version of dependencies. Here is an updated version
-![pom](../pics/pom.PNG)
+![pom](/pics/pom.PNG)
   *  Here is web.xml file. Note that the info under `<servlet-mapping>` tag changing the url pattern of rest service.
 ![webxml](/pics/webxml.PNG)
   *  If you come up with a **SEVERE: Allocate exception for servlet [Jersey RESTful Application]java.lang.ClassNotFoundException: org.glassfish.jersey.servlet.ServletContainer** try to do following [solution for eclipse in second answer](https://stackoverflow.com/questions/26444790/java-lang-classnotfoundexception-org-glassfish-jersey-servlet-servletcontainer)
